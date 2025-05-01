@@ -12,7 +12,6 @@ html,body { height:100%; font-family: sans-serif; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 /* semi-transparent overlay for contrast */
@@ -27,6 +26,11 @@ html,body { height:100%; font-family: sans-serif; }
   position: relative;
   color: #fff;
   max-width: 90%;
+}
+
+.hero H1 {
+margin-bottom: 2rem;
+font-size: 1.5em;  
 }
 
 /* optional logo styling */
