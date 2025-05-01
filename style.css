@@ -1,0 +1,44 @@
+/* reset & base */
+* { margin:0; padding:0; box-sizing:border-box; }
+html,body { height:100%; font-family: sans-serif; }
+
+/* Hero full-screen background */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('assets/hero-photo.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* semi-transparent overlay for contrast */
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+/* content sits above overlay */
+.hero .content {
+  position: relative;
+  color: #fff;
+  max-width: 90%;
+}
+
+/* optional logo styling */
+.logo { max-width: 150px; margin-bottom: 1rem; }
+
+/* button */
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #fff;
+  color: #111;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
